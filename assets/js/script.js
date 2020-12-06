@@ -12,7 +12,7 @@ var timeColor = function () {
             hours[i].addClass("past");
         }
         else if (times[i] === currentTime) {
-            times[i].addClass("present");
+            hours[i].addClass("present");
         }
         else {
             hours[i].addClass("future");
