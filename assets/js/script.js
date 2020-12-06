@@ -101,3 +101,9 @@ $("#saveBtn5").on("click", function () {
 
 timeColor();
 loadTasks();
+
+setInterval(function () {
+    $(hours).each(function(el) {
+        timeColor(el);
+    });
+}, (1000 * 60) * 60);
